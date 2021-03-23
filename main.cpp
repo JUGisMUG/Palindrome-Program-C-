@@ -13,7 +13,7 @@ int main() {
     reversed_number = reversed_number + number[i]; 
   }
   
-  if (reversed_number == number)
+  if (reversed_number == number) //checking if reversed number is qual to input number
      cout << "The provided number/string is a palindrome" << endl;
   else 
      cout << "The provided number or string is not a palindrome" << endl;
